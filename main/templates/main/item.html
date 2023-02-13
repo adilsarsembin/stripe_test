@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>
+        Success page
+    </title>
+{% endblock  %}
+
+{% block content %}
+    <h1>{{ item.name }}</h1>
+    <h2>{{ item.description }}</h2>
+    <h3>{{ item.price }}</h3>
+    <form action="/buy/{{ item.id }}" method="POST">
+        {% csrf_token %}
+        <button type="submit" id="checkout-button">Buy</button>
+    </form>
+{% endblock  %}
