@@ -25,14 +25,14 @@ Then install the dependencies:
 Note the `(env)` in front of the prompt. This indicates that this terminal
 session operates in a virtual environment set up by `virtualenv`.
 
-Make sure your database was initialized in .env file. Here is the look to .env file: 
-SECRET_KEY=
-NAME=
-USER=
-PASSWORD=
-HOST=
-PORT=
-STRIPE_KEY=
+Make sure your database was initialized in .env file. Here is the look to .env file: <br />
+SECRET_KEY=<br />
+NAME=<br />
+USER=<br />
+PASSWORD=<br />
+HOST=<br />
+PORT=<br />
+STRIPE_KEY=<br />
 
 Once `pip` has finished downloading the dependencies:
 ```sh
